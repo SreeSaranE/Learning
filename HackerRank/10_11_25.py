@@ -1,4 +1,3 @@
-'''
 # https://drive.google.com/file/d/1T3lEIXZsAMfeGdB_oLDRcr37prMr10ya/view?usp=drive_link
 def print_formatted(number):
     width=len(bin(number)[2:])
@@ -54,7 +53,7 @@ def print_rangoli(size):
 if __name__ == '__main__':
     n = int(input())
     print_rangoli(n)
-'''
+
 # https://drive.google.com/file/d/14HQIdZrOhE7SlW8gzQceN0Tf2dekp7n0/view?usp=drive_link
 def solve(s):
     words: list = s.split(" ")
